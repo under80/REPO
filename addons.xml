@@ -1,18 +1,4 @@
-<addons>
-<addon id="plugin.program.Narcacist" name="Narcacist Wizard" version="1.2.5" provider-name="Narcacist">
-<requires>
-<import addon="xbmc.python" version="2.1.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-<provides>executable</provides>
-</extension>
-<extension point="xbmc.service" library="startup.py" start="startup"/>
-<extension point="xbmc.addon.metadata">
-<summary lang="en">Narcacist Wizard</summary>
-<description lang="en">There is everything you need in this Wizard, A huge thanks to everyone who made it possible, Enjoy your stay.</description>
-<platform>all</platform>
-</extension>
-</addon>
+
 <addon id="plugin.program.xmlerator" name="XMLerator" version="5.5.0" provider-name="TonyH">
 <requires>
 <import addon="xbmc.python" version="2.19.0"/>
